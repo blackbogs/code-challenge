@@ -3,7 +3,7 @@ import { Carousel } from "flowbite-react";
 
 function TestiCarousel() {
   return (
-    <div className="h-screen desktop:hidden mt-[-150px]">
+    <div className="h-screen desktop:hidden mt-[-100px]">
       <Carousel slide={true} slideInterval={1000}>
         <div className="flex justify-center">
           <div className="rounded-tr-[50px] rounded-bl-[50px] w-[300px] h-[400px] flex flex-col items-center text-center gap-5 bg-gradient-to-l from-gray-400">

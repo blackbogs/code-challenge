@@ -8,9 +8,8 @@ module.exports = {
   ],    
   theme: {
     screens: {
-      "mobile" : {"min":"390px", "max":"428px"},
-      "tablet" : {"min":"429px", "max":"1499px"},
-      "desktop" : {"min": "1500px"}
+      "mobile" : {"min":"360px", "max":"428px"},
+      "tablet" : {"min":"429px", "max":"1499px"}      
     },
     daisyui: {
       themes: ["light"],

@@ -68,8 +68,8 @@ export default function Home() {
 
       {/* Fourth Section */}
       {/* for mobile */}
-      <div className="w-full h-[700px] text-center mt-[70px] bg-[url('/img/background-testi-mobile.webp')] tablet:hidden desktop:hidden">
-        <div className="flex flex-col pt-[80px]">
+      <div className="w-full h-[700px] text-center mt-[50px] bg-[url('/img/background-testi-mobile.webp')] tablet:hidden desktop:hidden">
+        <div className="flex flex-col pt-[50px]">
           <h1 className="font-extrabold text-white text-1xl font-[Poppins] tracking-widest">OUR TESTIMONIAL</h1>
           <p className="text-4xl text-teal-900 font-[Poppins] pt-1">Read Why They</p>
           <p className="pt-1 text-3xl text-yellow-400 font-Petit">Love Us So Much</p>        
