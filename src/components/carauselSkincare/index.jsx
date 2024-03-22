@@ -49,7 +49,7 @@ function SkincareCarousel() {
             </div>
             <p className="ml-[200x] text-teal-600 italic text-[30px] font-Petit">05</p><br/>
           </div>     
-          <img src="/img/product (5).png" className="rounded-br-[50px]" />
+          <img src="/img/products (5).png" className="rounded-br-[50px]" />
 
           <div className="relative flex flex-row items-center justify-between w-screen text-center h-[100px] pt-[50px]">
             <div className=" bg-orange-300 rounded-tr-[50px] h-[50px] w-[220px] flex items-center">
@@ -57,7 +57,7 @@ function SkincareCarousel() {
             </div>
             <p className="ml-[200x] text-teal-600 italic text-[30px] font-Petit">06</p><br/>
           </div>     
-          <img src="/img/product (6).png" className="rounded-br-[50px]" />
+          <img src="/img/products (6).png" className="rounded-br-[50px]" />
         </div>  
       </Carousel>
     </div>

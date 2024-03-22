@@ -1,4 +1,5 @@
 "use client";
+
 import ProductCarouselDesktop from "../components/carouselDesktop";
 import ProductCarouselMobile from "../components/carouselcomp";
 import SkincareCarousel from "../components/carauselSkincare";
@@ -48,11 +49,11 @@ export default function Home() {
           </section>
         </div>
 
-        <img src="/img/Asset17.png" width={"100%"} className="object-cover" />
+        <img src="/img/Asset17.webp" width={"100%"} className="object-cover" />
       </div>
 
       <div className="w-screen h-screen bg-orange-50 pt-[70px] desktop:hidden">
-        <div className="bg-[url('/img/Asset17-mobile.png')] object-cover rounded-tl-[45px] h-[150px] drop-shadow-lg">
+        <div className="bg-[url('/img/Asset17-mobile.webp')] object-cover rounded-tl-[45px] h-[150px] drop-shadow-lg">
           <div className="pt-[20px] pl-5">
             <p className="text-[13px] text-white font-Monstserrat ">OUR BEST SELLER</p>
             <h1 className="text-[33px] font-thin font-Monstserrat text-white leading-7">
@@ -68,7 +69,7 @@ export default function Home() {
 
       {/* Fourth Section */}
       {/* for mobile */}
-      <div className="w-full h-screen text-center mt-[50px] bg-[url('/img/background-testi-mobile.webp')] tablet:hidden desktop:hidden">
+      <div className="w-full h-screen text-center mt-[50px] bg-[url('/img/background-testi-mobile.webp')] object-cover tablet:hidden desktop:hidden">
         <div className="flex flex-col pt-[50px]">
           <h1 className="font-extrabold text-white text-1xl font-[Poppins] tracking-widest">OUR TESTIMONIAL</h1>
           <p className="text-4xl text-teal-900 font-[Poppins] pt-1">Read Why They</p>
@@ -77,19 +78,28 @@ export default function Home() {
         </div>
       </div>
 
-      {/* <div className="w-screen h-[200px] bg-[url('/img/background-download-mobile.png')] object-cover desktop:hidden tablet:hidden">
-        <div  className="grid items-end justify-start object-cover w-full h-full pt-[650px] desktop:hidden ">
-          <h1> Download</h1>
-        <img src="/img/handphone-mobile.png" className=""/>
-        </div>        
-      </div> */}
-
       <div className="w-full h-screen flex flex-col items-center justify-center bg-orange-50 pt-[80px] mobile:hidden">
         <p className="absolute text-[25px] text-white font-Monstserrat">OUR TESTIMONIAL</p>
         <img src="/img/Asset25.webp" width={"100%"} />
       </div>
-
       {/* Fourth Section Ends*/}
+
+      {/* Fifth Section */}
+      <div className="w-screen h-[71vh] desktop:hidden tablet:hidden">
+        <div  className="flex flex-col justify-center items-center">
+          <h1 className="text-[30px] font-Monstserrat text-teal-900 pt-[50px]"> Download</h1>
+          <h1 className="text-[25px] font-Petit text-yellow-500 italic "> Our Apps</h1>
+          <div className="flex flex-row w-[120px] gap-2 justify-center mt-[-20px] ">
+                <img src="/img/google play.svg" />
+                <img src="/img/app store.svg" />
+              </div>
+          <img src="/img/handphone-mobile.webp" className="mt-[-50px]"/>
+       
+        </div>        
+      </div>
+
+      {/* Fifth Section Ends*/}
+
     </main>
   );
 }

@@ -5,12 +5,12 @@ export default function Footer() {
   return (
     <div className="h-[200px] bg-transparent">
       <div className="relative flex justify-center">
-        <img src="/img/footer-desktop.png" className="absolute w-screen mobile:hidden bg-transparent" /> {/* for desktop */}
-        <img src="/img/footer-mobile.png" className=" mt-[-100px] w-screen h-[80vh] desktop:hidden tablet:hidden" /> {/* for mobile */}
+        <img src="/img/footer-desktop.webp" className="absolute w-screen mobile:hidden bg-transparent" /> {/* for desktop */}
+        <img src="/img/footer-mobile.webp" className=" mt-[-90px] w-screen h-[600px] bg-transparent desktop:hidden tablet:hidden" /> {/* for mobile */}
         <div className="w-[80vw] absolute my-10">
           <div>
             <Link href={"/"}>
-              <img src="/img/logo footer-mobile.png" className="w-[200px]" />
+              <img src="/img/logo footer-mobile.webp" className="w-[200px] mt-[-50px]" />
             </Link>
           </div>
 
@@ -66,6 +66,8 @@ export default function Footer() {
               </div>
             </div>
           </div>
+          <p className="text-center text-[10px] font-Monstserrat text-yellow-200 pt-5"> COPYRIGHT @ 2024 PT.RUVI RIZQY BERKAH. ALL RIGHT <br/> RESERVED</p>
+          <p className="text-center text-[10px] font-Monstserrat text-yellow-200 pt-5">CLONED BY BOGI JCWD 2702</p>
         </div>
       </div>
     </div>

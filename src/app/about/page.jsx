@@ -8,7 +8,7 @@ export default function AboutUs() {
         <h1 className="absolute text-1xl pt-[150px] pl-[30px] text-gray-500">ABOUT US</h1>
         <h1 className="absolute text-[35px] pt-[170px] pl-[30px] font-[Poppins] text-teal-900 font-thin">Klinik Kecantikan</h1>
         <h1 className="absolute text-[24px] pt-[205px] pl-[30px] font-Petit text-yellow-500">khusus Wanita</h1>
-        <img src="/img/banner-about-us-mobile.jpg" className="w-screen pt-[50px]" />
+        <img src="/img/banner-about-us-mobile.webp" className="w-screen pt-[50px]" />
       </div>
 
       {/* for desktop */}
@@ -24,7 +24,7 @@ export default function AboutUs() {
         {/* visi misi mobile */}
         <div>
         <div className="w-[80vw] h-full desktop:hidden mx-10">
-          <img src="/img/Asset9-mobile.png" className="mt-[20px] scale-[0.9]" />
+          <img src="/img/Asset9-mobile.webp" className="mt-[20px] scale-[0.9]" />
           <h1 className="font-[Poppins] text-teal-950 font-thin text-[30px]">Merawat tanpa</h1>
           <div className="flex flex-row items-center">
             <p className="font-Petit text-yellow-500 font-bold text-[20px] w-[50vw]">Was Was</p>

@@ -35,8 +35,8 @@ const Navbar = () => {
 
         <div className="cursor-pointer desktop:hidden tablet:hidden">
           <Hamburger size="30" color="white" rounded duration={0.2} toggled={isOpen} toggle={setOpen}></Hamburger>
-          <ul className={`${isOpen ? "origin-right translate-x-[-110px] transition ease-linear mt-[30px]" : "origin-right translate-x-[100vw] transition ease-linear mt-[30px] overflow-hidden"}
-                        bg-[url(/img/menu-bg-mobile.png)] bg-no-repeat absolute flex flex-col gap-y-4 items-center w-[200px] h-screen py-5 font-bold font-Monstserrat text-white`}>
+          <ul className={`${isOpen ? "origin-right translate-x-[-110px] transition ease-linear mt-[20px]" : "origin-right translate-x-[100vw] transition ease-linear mt-[20px] overflow-hidden"}
+                        bg-[url(/img/menu-bg-mobile.webp)] bg-no-repeat absolute flex flex-col gap-y-4 items-center w-[200px] h-screen py-5 font-bold font-Monstserrat text-white`}>
             <li><Link href={"/about"}>ABOUT US</Link></li>
             <li><Link href={"/products"}>PRODUCTS</Link></li>            
             <li><Link href={"/ourteams"}>OUR TEAMS</Link></li>
