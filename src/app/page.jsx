@@ -11,7 +11,7 @@ export default function Home() {
       <div>
         <img src="/img/hero.webp" className="w-full h-full pt-[100px] object-cover desktop:block mobile:hidden tablet:hidden" />
 
-        <img src="/img/hero-mobile.webp" className="object-cover w-full h-full desktop:hidden" />
+        <img src="/img/hero-mobile.webp" className="object-cover w-full h-screen desktop:hidden" />
       </div>
       {/* Hero section End*/}
 
@@ -68,7 +68,7 @@ export default function Home() {
 
       {/* Fourth Section */}
       {/* for mobile */}
-      <div className="w-full h-[700px] text-center mt-[50px] bg-[url('/img/background-testi-mobile.webp')] tablet:hidden desktop:hidden">
+      <div className="w-full h-screen text-center mt-[50px] bg-[url('/img/background-testi-mobile.webp')] tablet:hidden desktop:hidden">
         <div className="flex flex-col pt-[50px]">
           <h1 className="font-extrabold text-white text-1xl font-[Poppins] tracking-widest">OUR TESTIMONIAL</h1>
           <p className="text-4xl text-teal-900 font-[Poppins] pt-1">Read Why They</p>
