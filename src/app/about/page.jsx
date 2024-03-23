@@ -1,6 +1,6 @@
 export default function AboutUs() {
   return (
-    <div className="pt-[20px] w-full h-full">
+    <div className="pt-[20px] w-screen h-full">
       {/* 1st section */}
 
       {/* for mobile */}
@@ -72,16 +72,16 @@ export default function AboutUs() {
         {/* visi misi desktop */}
         <div className="flex flex-row h-full w-screen justify-between pt-[100px] mobile:hidden tablet:hidden">
 
-          <div className="w-[50vw] scale-[0.8] mt-[-150px]">
+          <div className="w-[50vw] scale-[0.8] mt-[-110px]">
             <img src="/img/Asset9.webp"/>
             </div>
           
 
           <div className="w-[50vw] mx-5">
             <h1 className="font-[Poppins] text-teal-900 text-[60px] pt-[100px] font-thin">Merawat tanpa</h1>
-            <div className="flex flex-row items-center gap-3 w-screen">
-              <h1 className="font-Petit italic text-yellow-500 text-[35px] font-bold">Was Was</h1>
-              <hr className=" bg-teal-900 w-[585px] h-[2.5px]" />
+            <div className="flex flex-row items-center gap-3">
+            <h1 className="font-Petit italic text-yellow-500 text-5xl font-bold">Was Was</h1>
+              <hr className=" bg-teal-900 w-[32vw] h-[3px] " />
             </div>
             <p className="pt-5 text-justify pr-8 text-xl text-gray-600 font-Monstserrat">
               Merawat diri merupakan salah satu cara untuk bersyukur atas karunia dari-Nya. Termasuk menjaga kesehatan kulit wajah di klinik kecantikan. Tapi sebagai wanita, sering muncul keraguan.

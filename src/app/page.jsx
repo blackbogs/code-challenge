@@ -4,6 +4,7 @@ import ProductCarouselDesktop from "../components/carouselDesktop";
 import ProductCarouselMobile from "../components/carouselcomp";
 import SkincareCarousel from "../components/carauselSkincare";
 import TestiCarousel from "../components/carouselTesti";
+import DownloadOurApps from "../components/downloadOurApps";
 
 export default function Home() {
   return (
@@ -78,9 +79,9 @@ export default function Home() {
           <TestiCarousel />
         </div>
       </div>
-      
+      {/* for desktop */}
       <div className="w-screen h-screen mobile:hidden">
-      <div className="bg-[url('/img/background-testi.webp')] h-screen bg-cover absolute w-full text-center pt-[50px] flex flex-col">
+      <div className="bg-[url('/img/background-testi.webp')] h-screen bg-cover absolute w-full text-center pt-[50px] flex flex-col z-10">
       <h1 className="font-extrabold text-white text-1xl font-[Poppins] tracking-widest">OUR TESTIMONIAL</h1>
       <p className="text-[40px] text-teal-900 font-[Poppins] pt-1 tracking-wider">Read Why They</p>
           <p className="pt-1 text-[45px] text-yellow-400 font-Petit italic">Love Us So Much</p>
@@ -91,6 +92,7 @@ export default function Home() {
       {/* Fourth Section Ends*/}
 
       {/* Fifth Section */}
+      {/* for mobile */}
       <div className="w-screen h-[71vh] desktop:hidden tablet:hidden">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-[30px] font-Monstserrat text-teal-900 pt-[50px]"> Download</h1>
@@ -101,6 +103,11 @@ export default function Home() {
           </div>
           <img src="/img/handphone-mobile.webp" className="mt-[-50px]" />
         </div>
+      </div>
+
+      {/* for desktop */}
+      <div className="div">
+      <DownloadOurApps/>
       </div>
 
       {/* Fifth Section Ends*/}

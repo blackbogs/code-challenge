@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className="h-[200px] bg-transparent">
       <div className="relative flex justify-center">
-        <img src="/img/footer-desktop.webp" className="absolute w-screen mobile:hidden bg-transparent" /> {/* for desktop */}
+        <img src="/img/footer-desktop.webp" className="absolute w-screen mobile:hidden bg-transparent z-50" /> {/* for desktop */}
         <img src="/img/footer-mobile.webp" className=" mt-[-90px] w-screen h-[600px] bg-transparent desktop:hidden tablet:hidden" /> {/* for mobile */}
 
         {/* for mobile */}
@@ -82,7 +82,7 @@ export default function Footer() {
         {/* for mobile end */}
 
         {/* for desktop */}
-        <div className="absolute mobile:hidden">
+        <div className="absolute z-50 mobile:hidden">
 
           <div className="w-[75vw] flex flex-row justify-between mt-[120px] text-[15px] font-Monstserrat text-white">
             <div>
