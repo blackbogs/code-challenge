@@ -5,6 +5,7 @@ import ProductCarouselMobile from "../components/carouselcomp";
 import SkincareCarousel from "../components/carauselSkincare";
 import TestiCarousel from "../components/carouselTesti";
 import DownloadOurApps from "../components/downloadOurApps";
+import HayyuHistory from "../components/historySection";
 
 export default function Home() {
   return (
@@ -70,7 +71,12 @@ export default function Home() {
       {/* Third Section Ends*/}
 
       {/* Fourth Section */}
-      {/* for mobile */}
+     
+      <div>
+      <HayyuHistory/>
+      </div>
+      
+      {/* for mobile */} 
       <div className="w-full h-screen text-center mt-[50px] bg-[url('/img/background-testi-mobile.webp')] object-cover tablet:hidden desktop:hidden">
         <div className="flex flex-col pt-[50px]">
           <h1 className="font-extrabold text-white text-1xl font-[Poppins] tracking-widest">OUR TESTIMONIAL</h1>
@@ -79,6 +85,7 @@ export default function Home() {
           <TestiCarousel />
         </div>
       </div>
+         
       {/* for desktop */}
       <div className="w-screen h-screen mobile:hidden">
       <div className="bg-[url('/img/background-testi.webp')] h-screen bg-cover absolute w-full text-center pt-[50px] flex flex-col z-10">
