@@ -1,3 +1,4 @@
+"use client"
 export default function AboutUs() {
   return (
     <div className="pt-[20px] w-screen h-full">
@@ -14,13 +15,13 @@ export default function AboutUs() {
       </div>
 
       {/* for desktop */}
-      <div className="h-[650px] pt-[70px] bg-black mobile:hidden tablet:hidden">
+      <div className="h-[650px] pt-[70px] mobile:hidden tablet:hidden">
         <div className="absolute pt-[190px] pl-[200px]">
         <h1 className="text-[20px] text-gray-500] font-Monstserrat tracking-widest">ABOUT US</h1>
         <h1 className="text-[55px] font-Monstserrat text-teal-900 tracking-wide">Klinik Kecantikan</h1>
         <h1 className="text-[35px] font-Petit italic text-yellow-400">khusus Wanita</h1>
         </div>
-        <img src="/img/banner-about-us-desktop.webp" className="w-screen h-[100vpx] object-cover" />        
+        <img src="/img/banner-about-us-desktop.webp"/>        
       </div>
       {/* 1st section end*/}
 
@@ -32,7 +33,7 @@ export default function AboutUs() {
           <h1 className="font-[Poppins] text-teal-950 font-thin text-[30px]">Merawat tanpa</h1>
           <div className="flex flex-row items-center">
             <p className="font-Petit text-yellow-500 font-bold text-[20px] w-[50vw]">Was Was</p>
-            <hr className="bg-teal-900 h-[2px] w-[100vw]" />
+            <hr className="bg-teal-900 h-[2px] w-[80vw]" />
           </div>
 
           <p className="pt-5 text-justify text-[15px] text-gray-600">
