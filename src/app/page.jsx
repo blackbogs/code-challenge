@@ -37,23 +37,24 @@ export default function Home() {
       {/* Second Section Ends*/}
 
       {/* Third Section */}
-      <div className=" relative w-screen h-screen bg-orange-50 mx-auto mobile:hidden">
-        <div>
-          <section className="ml-[100px]">
-            <h1 className="absolute text-[20px] mt-[150px] font-Monstserrat text-gray-200">OUR BEST SELLER</h1>
-            <h1 className="absolute text-[40px] mt-[200px] font-Monstserrat text-white">Show Your True Beauty</h1>
-            <div className="absolute flex flex-row justify-center items-center mt-[255px] gap-[100px]">
-              <h1 className="text-[50px]  font-Petit text-yellow-500 italic">With Our Products</h1>
-              <hr className="w-[50vw] " />
+      <div className="relative w-screen h-screen bg-orange-50 mx-auto mobile:hidden">
+        <div className="bg-[url('/img/Asset17.webp')] rounded-tl-[45px] h-[150px] drop-shadow-lg bg-cover absolute w-full">
+          <section className="ml-[100px] mt-[-120px]">
+            <h1 className="absolute text-[18px] mt-[150px] font-Monstserrat text-gray-200">OUR BEST SELLER</h1>
+            <h1 className="absolute text-[35px] mt-[165px] font-Monstserrat text-white tracking-wider">Show Your True Beauty</h1>
+            <div className="absolute flex flex-row justify-center items-center mt-[210px] gap-[95px]">
+              <h1 className="text-[38px]  font-Petit text-yellow-300 italic tracking-wide">With Our Products</h1>
+              <hr className="w-[60vw]" />
             </div>
           </section>
-        </div>
-
-        <img src="/img/Asset17.webp" width={"100%"} className="object-cover" />
+          <div className="mt-[350px]">
+            <SkincareCarousel />
+          </div>
+        </div>        
       </div>
 
       <div className="w-screen h-screen bg-orange-50 pt-[70px] desktop:hidden">
-        <div className="bg-[url('/img/Asset17-mobile.webp')] object-cover rounded-tl-[45px] h-[150px] drop-shadow-lg">
+        <div className="bg-[url('/img/Asset17-mobile.webp')] rounded-tl-[45px] h-[150px] drop-shadow-lg">
           <div className="pt-[20px] pl-5">
             <p className="text-[13px] text-white font-Monstserrat ">OUR BEST SELLER</p>
             <h1 className="text-[33px] font-thin font-Monstserrat text-white leading-7">
@@ -62,8 +63,8 @@ export default function Home() {
             </h1>
             <h1 className="text-[25px] font-Petit text-yellow-300 italic pt-1">With Our Products</h1>
           </div>
+          <SkincareCarousel />
         </div>
-        <SkincareCarousel />
       </div>
       {/* Third Section Ends*/}
 
@@ -73,33 +74,36 @@ export default function Home() {
         <div className="flex flex-col pt-[50px]">
           <h1 className="font-extrabold text-white text-1xl font-[Poppins] tracking-widest">OUR TESTIMONIAL</h1>
           <p className="text-4xl text-teal-900 font-[Poppins] pt-1">Read Why They</p>
-          <p className="pt-1 text-3xl text-yellow-400 font-Petit">Love Us So Much</p>        
-          <TestiCarousel/>
+          <p className="pt-1 text-3xl text-yellow-400 font-Petit">Love Us So Much</p>
+          <TestiCarousel />
         </div>
       </div>
-
-      <div className="w-full h-screen flex flex-col items-center justify-center bg-orange-50 pt-[80px] mobile:hidden">
-        <p className="absolute text-[25px] text-white font-Monstserrat">OUR TESTIMONIAL</p>
-        <img src="/img/Asset25.webp" width={"100%"} />
+      
+      <div className="w-screen h-screen mobile:hidden">
+      <div className="bg-[url('/img/background-testi.webp')] h-screen bg-cover absolute w-full text-center pt-[50px] flex flex-col">
+      <h1 className="font-extrabold text-white text-1xl font-[Poppins] tracking-widest">OUR TESTIMONIAL</h1>
+      <p className="text-[40px] text-teal-900 font-[Poppins] pt-1 tracking-wider">Read Why They</p>
+          <p className="pt-1 text-[45px] text-yellow-400 font-Petit italic">Love Us So Much</p>
+          <TestiCarousel/>
+        
+      </div>
       </div>
       {/* Fourth Section Ends*/}
 
       {/* Fifth Section */}
       <div className="w-screen h-[71vh] desktop:hidden tablet:hidden">
-        <div  className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center">
           <h1 className="text-[30px] font-Monstserrat text-teal-900 pt-[50px]"> Download</h1>
           <h1 className="text-[25px] font-Petit text-yellow-500 italic "> Our Apps</h1>
           <div className="flex flex-row w-[120px] gap-2 justify-center mt-[-20px] ">
-                <img src="/img/google play.svg" />
-                <img src="/img/app store.svg" />
-              </div>
-          <img src="/img/handphone-mobile.webp" className="mt-[-50px]"/>
-       
-        </div>        
+            <img src="/img/google play.svg" />
+            <img src="/img/app store.svg" />
+          </div>
+          <img src="/img/handphone-mobile.webp" className="mt-[-50px]" />
+        </div>
       </div>
 
       {/* Fifth Section Ends*/}
-
     </main>
   );
 }

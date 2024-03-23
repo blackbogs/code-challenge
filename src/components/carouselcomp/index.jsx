@@ -3,7 +3,7 @@ import { Carousel } from "flowbite-react";
 
 function ProductCarouselMobile() {
   return (
-    <div className="mobile:h-[800px] px-[20px] mt-[-120px] desktop:hidden">
+    <div className="h-[800px] px-[20px] mt-[-120px] desktop:hidden">
       <Carousel slide={false} slideInterval={1000}>
         <div>
           <div className="relative flex flex-row items-center justify-between w-screen text-center h-[100px] pt-[50px]">
@@ -12,7 +12,7 @@ function ProductCarouselMobile() {
             </div>
             <p className=" text-teal-600 italic text-[30px] font-Petit">01</p><br/>
           </div>     
-          <img src="/img/carousel01.jpg" className="rounded-br-[50px]" />
+          <img src="/img/carousel01.webp" className="rounded-br-[50px]" />
 
           <div className="relative flex flex-row items-center justify-between w-screen text-center h-[100px] pt-[50px]">
             <div className=" bg-orange-300 rounded-tr-[50px] h-[50px] w-[220px] flex items-center">
@@ -20,7 +20,7 @@ function ProductCarouselMobile() {
             </div>
             <p className="ml-[200x] text-teal-600 italic text-[30px] font-Petit">02</p><br/>
           </div>     
-          <img src="/img/carousel03.jpg" className="rounded-br-[50px]" />
+          <img src="/img/carousel03.webp" className="rounded-br-[50px]" />
         </div>
 
         <div>
@@ -30,7 +30,7 @@ function ProductCarouselMobile() {
             </div>
             <p className="ml-[200x] text-teal-600 italic text-[30px] font-Petit">03</p><br/>
           </div>     
-          <img src="/img/carousel02.jpg" className="rounded-br-[50px]" />
+          <img src="/img/carousel02.webp" className="rounded-br-[50px]" />
 
           <div className="relative flex flex-row items-center justify-between w-screen text-center h-[100px] pt-[50px]">
             <div className=" bg-orange-300 rounded-tr-[50px] h-[50px] w-[220px] flex items-center">
@@ -38,7 +38,7 @@ function ProductCarouselMobile() {
             </div>
             <p className="ml-[200x] text-teal-600 italic text-[30px] font-Petit">04</p><br/>
           </div>     
-          <img src="/img/carousel04.png" className="rounded-br-[50px]" />
+          <img src="/img/carousel04.webp" className="rounded-br-[50px]" />
         </div>
 
         <div>
@@ -48,7 +48,7 @@ function ProductCarouselMobile() {
             </div>
             <p className="ml-[200x] text-teal-600 italic text-[30px] font-Petit">05</p><br/>
           </div>     
-          <img src="/img/carousel05.jpg" className="rounded-br-[50px]" />
+          <img src="/img/carousel05.webp" className="rounded-br-[50px]" />
 
           <div className="relative flex flex-row items-center justify-between w-screen text-center h-[100px] pt-[50px]">
             <div className=" bg-orange-300 rounded-tr-[50px] h-[50px] w-[220px] flex items-center">
@@ -56,7 +56,7 @@ function ProductCarouselMobile() {
             </div>
             <p className="ml-[200x] text-teal-600 italic text-[30px] font-Petit">06</p><br/>
           </div>     
-          <img src="/img/carousel06.jpg" className="rounded-br-[50px]" />
+          <img src="/img/carousel06.webp" className="rounded-br-[50px]" />
         </div>  
       </Carousel>
     </div>
