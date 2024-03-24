@@ -62,6 +62,7 @@ function TestiCarousel() {
             </p>
           </div>
         </div>
+        
       </Carousel>
 
     </div>
@@ -69,3 +70,4 @@ function TestiCarousel() {
 }
 
 export default TestiCarousel;
+
