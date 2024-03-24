@@ -11,7 +11,7 @@ export default function AboutUs() {
           <h1 className="text-[35px] font-[Poppins] text-teal-900 font-thin">Klinik Kecantikan</h1>
           <h1 className="text-[24px] font-Petit text-yellow-500">khusus Wanita</h1>
         </div>
-        <img src="/img/banner-about-us-mobile.webp" loading="lazy" className="w-screen pt-[50px]" />
+        <img src="/img/banner-about-us-mobile.webp" alt="banner" loading="lazy" className="w-screen pt-[50px]" />
       </div>
 
       {/* for desktop */}
@@ -21,7 +21,7 @@ export default function AboutUs() {
         <h1 className="text-[55px] font-Monstserrat text-teal-900 tracking-wide">Klinik Kecantikan</h1>
         <h1 className="text-[35px] font-Petit italic text-yellow-400">khusus Wanita</h1>
         </div>
-        <img src="/img/banner-about-us-desktop.webp"/>        
+        <img src="/img/banner-about-us-desktop.webp"alt="banner" loading="lazy"/>        
       </div>
       {/* 1st section end*/}
 
@@ -29,7 +29,7 @@ export default function AboutUs() {
       {/* visi misi mobile */}
       <div>
         <div className="w-[80vw] h-full desktop:hidden mx-10">
-          <img src="/img/Asset9-mobile.webp" loading="lazy" className="mt-[20px] scale-[0.9]" />
+          <img src="/img/Asset9-mobile.webp" alt="asset" loading="lazy" className="mt-[20px] scale-[0.9]" />
           <h1 className="font-[Poppins] text-teal-950 font-thin text-[30px]">Merawat tanpa</h1>
           <div className="flex flex-row items-center">
             <p className="font-Petit text-yellow-500 font-bold text-[20px] w-[50vw]">Was Was</p>
@@ -74,7 +74,7 @@ export default function AboutUs() {
         <div className="flex flex-row h-full w-screen justify-between pt-[100px] mobile:hidden tablet:hidden">
 
           <div className="w-[50vw] scale-[0.8] mt-[-110px]">
-            <img src="/img/Asset9.webp" loading="lazy"/>
+            <img src="/img/Asset9.webp" alt="asset" loading="lazy"/>
             </div>
           
 

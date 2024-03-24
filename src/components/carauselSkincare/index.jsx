@@ -15,7 +15,7 @@ function SkincareCarousel() {
             <p className=" text-teal-600 italic text-[25px] font-Petit">01</p>
             <br />
           </div>
-          <img src="/img/products (1).webp" loading="lazy" className="rounded-br-[50px] mt-[-5px]" />
+          <img src="/img/products (1).webp" alt="foto product" loading="lazy" className="rounded-br-[50px] mt-[-5px]" />
 
           <div className="relative flex flex-row items-center justify-between text-center h-[100px] pt-[50px]">
           <div className=" bg-orange-300 rounded-tr-[50px] h-[40px] w-[200px] flex items-center">
@@ -24,7 +24,7 @@ function SkincareCarousel() {
             <p className=" text-teal-600 italic text-[25px] font-Petit">02</p>
             <br />
           </div>
-          <img src="/img/products (2).webp" loading="lazy" className="rounded-br-[50px] mt-[-5px]" />
+          <img src="/img/products (2).webp" alt="foto product" loading="lazy" className="rounded-br-[50px] mt-[-5px]" />
 
         </div>
 
@@ -37,7 +37,7 @@ function SkincareCarousel() {
             <p className=" text-teal-600 italic text-[25px] font-Petit">03</p>
             <br />
           </div>
-          <img src="/img/products (3).webp" loading="lazy" className="rounded-br-[50px] mt-[-5px]" />
+          <img src="/img/products (3).webp" alt="foto product" loading="lazy" className="rounded-br-[50px] mt-[-5px]" />
 
           <div className="relative flex flex-row items-center justify-between text-center h-[100px] pt-[50px]">
           <div className=" bg-orange-300 rounded-tr-[50px] h-[40px] w-[200px] flex items-center">
@@ -46,7 +46,7 @@ function SkincareCarousel() {
             <p className=" text-teal-600 italic text-[25px] font-Petit">04</p>
             <br />
           </div>
-          <img src="/img/products (4).webp" loading="lazy" className="rounded-br-[50px] mt-[-5px]" />
+          <img src="/img/products (4).webp" alt="foto product" loading="lazy" className="rounded-br-[50px] mt-[-5px]" />
 
         </div>
 
@@ -59,7 +59,7 @@ function SkincareCarousel() {
             <p className=" text-teal-600 italic text-[25px] font-Petit">05</p>
             <br />
           </div>
-          <img src="/img/products (5).webp" loading="lazy"  className="rounded-br-[50px] mt-[-5px]" />
+          <img src="/img/products (5).webp" alt="foto product" loading="lazy"  className="rounded-br-[50px] mt-[-5px]" />
 
           <div className="relative flex flex-row items-center justify-between text-center h-[100px] pt-[50px]">
           <div className=" bg-orange-300 rounded-tr-[50px] h-[40px] w-[200px] flex items-center">
@@ -68,7 +68,7 @@ function SkincareCarousel() {
             <p className=" text-teal-600 italic text-[25px] font-Petit">06</p>
             <br />
           </div>
-          <img src="/img/products (6).webp" loading="lazy" className="rounded-br-[50px] mt-[-5px]" />
+          <img src="/img/products (6).webp" alt="foto product" loading="lazy" className="rounded-br-[50px] mt-[-5px]" />
 
         </div>
       </Carousel>
@@ -83,7 +83,7 @@ function SkincareCarousel() {
                 <p className=" text-teal-600 italic text-[30px] font-Petit font-bold">01</p>
                 <br />
               </div>
-              <img src="/img/products (1).webp" loading="lazy" className="rounded-br-[50px] shadow-lg" />
+              <img src="/img/products (1).webp" alt="foto product" loading="lazy" className="rounded-br-[50px] shadow-lg" />
             </div>
 
             <div className="w-[600px] text-center h-[500px] pt-[50px]">
@@ -92,7 +92,7 @@ function SkincareCarousel() {
                 <p className=" text-teal-600 italic text-[30px] font-Petit font-bold">02</p>
                 <br />
               </div>
-              <img src="/img/products (2).webp" loading="lazy" className="rounded-br-[50px] shadow-lg" />
+              <img src="/img/products (2).webp" alt="foto product" loading="lazy" className="rounded-br-[50px] shadow-lg" />
             </div>
           </div>
 
@@ -103,7 +103,7 @@ function SkincareCarousel() {
                 <p className=" text-teal-600 italic text-[30px] font-Petit font-bold">03</p>
                 <br />
               </div>
-              <img src="/img/products (3).webp" loading="lazy" className="rounded-br-[50px] shadow-lg" />
+              <img src="/img/products (3).webp" alt="foto product" loading="lazy" className="rounded-br-[50px] shadow-lg" />
             </div>
 
             <div className="w-[600px] text-center h-[500px] pt-[50px]">
@@ -112,7 +112,7 @@ function SkincareCarousel() {
                 <p className=" text-teal-600 italic text-[30px] font-Petit font-bold">04</p>
                 <br />
               </div>
-              <img src="/img/products (4).webp" loading="lazy" className="rounded-br-[50px] shadow-lg" />
+              <img src="/img/products (4).webp" alt="foto product" loading="lazy" className="rounded-br-[50px] shadow-lg" />
             </div>
           </div>
 
@@ -123,7 +123,7 @@ function SkincareCarousel() {
                 <p className=" text-teal-600 italic text-[30px] font-Petit font-bold">05</p>
                 <br />
               </div>
-              <img src="/img/products (5).webp" loading="lazy" className="rounded-br-[50px] shadow-lg" />
+              <img src="/img/products (5).webp" alt="foto product" loading="lazy" className="rounded-br-[50px] shadow-lg" />
             </div>
 
             <div className="w-[600px] text-center h-[500px] pt-[50px]">
@@ -132,7 +132,7 @@ function SkincareCarousel() {
                 <p className=" text-teal-600 italic text-[30px] font-Petit font-bold">06</p>
                 <br />
               </div>
-              <img src="/img/products (6).webp" loading="lazy" className="rounded-br-[50px] shadow-lg" />
+              <img src="/img/products (6).webp" alt="foto product" loading="lazy" className="rounded-br-[50px] shadow-lg" />
             </div>
           </div>
         </Carousel>

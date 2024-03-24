@@ -14,12 +14,12 @@ const Navbar = () => {
 
     <div className="relative flex justify-center">
       <img src="/img/Asset2.webp" loading="lazy" className="absolute h-[150px] w-screen mobile:hidden" /> {/* for desktop */}
-      <img src="/img/Asset2-mobile.webp" loading="lazy" className="absolute desktop:hidden tablet:hidden" /> {/*for mobile */}
+      <img src="/img/Asset2-mobile.webp" alt="logo" loading="lazy" className="absolute desktop:hidden tablet:hidden" /> {/*for mobile */}
       
       <div className="absolute flex flex-row items-center justify-between w-[80vw] pt-3 mobile:pt-3">
         <div className="mobile:w-[110px] mobile:h-[80px] desktop:w-[135px] desktop:h-[90px] tablet:h-[70px] tablet:flex">
           <Link href={"/"}>
-          <img src="/img/home-icon.webp" loading="lazy"/>
+          <img src="/img/home-icon.webp" alt="logo" loading="lazy"/>
           </Link>
         </div>
 

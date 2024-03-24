@@ -12,9 +12,9 @@ export default function Home() {
     <main className="bg-orange-50">
       {/* Hero section */}
       <div>
-        <img src="/img/hero.webp" loading="lazy" className="w-full h-full pt-[100px] object-cover desktop:block mobile:hidden tablet:hidden" />
+        <img src="/img/hero.webp" alt="hero" loading="lazy" className="w-full h-full pt-[100px] object-cover desktop:block mobile:hidden tablet:hidden" />
 
-        <img src="/img/hero-mobile.webp" loading="lazy" className="object-cover w-full h-screen desktop:hidden" />
+        <img src="/img/hero-mobile.webp" alt="hero" loading="lazy" className="object-cover w-full h-screen desktop:hidden" />
       </div>
       {/* Hero section End*/}
 
@@ -72,7 +72,7 @@ export default function Home() {
 
       {/* Fourth Section */}
      
-      <div>
+      <div className="h-screen">
       <HayyuHistory/>
       </div>
       
@@ -100,23 +100,22 @@ export default function Home() {
 
       {/* Fifth Section */}
       {/* for mobile */}
-      <div className="w-screen h-[71vh] desktop:hidden tablet:hidden">
+      <div className="w-screen h-[58vh] desktop:hidden tablet:hidden">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-[30px] font-Monstserrat text-teal-900 pt-[50px]"> Download</h1>
           <h1 className="text-[25px] font-Petit text-yellow-500 italic "> Our Apps</h1>
           <div className="flex flex-row w-[120px] gap-2 justify-center mt-[-20px] ">
-            <img src="/img/google play.svg" loading="lazy"/>
-            <img src="/img/app store.svg" loading="lazy"/>
+            <img src="/img/google play.svg" alt="logo" loading="lazy"/>
+            <img src="/img/app store.svg" alt="logo" loading="lazy"/>
           </div>
-          <img src="/img/handphone-mobile.webp" loading="lazy" className="mt-[-50px]" />
+          <img src="/img/handphone-mobile.webp"  alt="handphone" loading="lazy" className="mt-[-50px]" />
         </div>
       </div>
 
       {/* for desktop */}
-      <div className="div">
+      <div className="pb-[100px]">
       <DownloadOurApps/>
       </div>
-
       {/* Fifth Section Ends*/}
     </main>
   );

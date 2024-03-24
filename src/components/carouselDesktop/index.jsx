@@ -12,7 +12,7 @@ export default function ProductCarouselDesktop() {
               <p className=" text-teal-600 italic text-[30px] font-Petit font-bold">01</p>
               <br />
             </div>
-            <img src="/img/carousel01.webp" loading="lazy" className="rounded-br-[50px]" />
+            <img src="/img/carousel01.webp" alt="foto carousel" loading="lazy" className="rounded-br-[50px]" />
           </div>
 
           <div className="w-[600px] text-center h-[500px] pt-[50px]">
@@ -21,7 +21,7 @@ export default function ProductCarouselDesktop() {
               <p className=" text-teal-600 italic text-[30px] font-Petit font-bold">02</p>
               <br />
             </div>
-            <img src="/img/carousel03.webp" loading="lazy" className="rounded-br-[50px]" />
+            <img src="/img/carousel03.webp" alt="foto carousel"  loading="lazy" className="rounded-br-[50px]" />
           </div>
         </div>
 
@@ -32,7 +32,7 @@ export default function ProductCarouselDesktop() {
               <p className=" text-teal-600 italic text-[30px] font-Petit font-bold">03</p>
               <br />
             </div>
-            <img src="/img/carousel02.webp" loading="lazy" className="rounded-br-[50px]" />
+            <img src="/img/carousel02.webp" alt="foto carousel"  loading="lazy" className="rounded-br-[50px]" />
           </div>
 
           <div className="w-[600px] text-center h-[500px] pt-[50px]">
@@ -41,7 +41,7 @@ export default function ProductCarouselDesktop() {
               <p className=" text-teal-600 italic text-[30px] font-Petit font-bold">04</p>
               <br />
             </div>
-            <img src="/img/carousel04.webp" loading="lazy" className="rounded-br-[50px]" />
+            <img src="/img/carousel04.webp" alt="foto carousel"  loading="lazy" className="rounded-br-[50px]" />
           </div>
         </div>
 
@@ -52,7 +52,7 @@ export default function ProductCarouselDesktop() {
               <p className=" text-teal-600 italic text-[30px] font-Petit font-bold">05</p>
               <br />
             </div>
-            <img src="/img/carousel05.webp" loading="lazy" className="rounded-br-[50px]" />
+            <img src="/img/carousel05.webp" alt="foto carousel"  loading="lazy" className="rounded-br-[50px]" />
           </div>
 
           <div className="w-[600px] text-center h-[500px] pt-[50px]">
@@ -61,7 +61,7 @@ export default function ProductCarouselDesktop() {
               <p className=" text-teal-600 italic text-[30px] font-Petit font-bold">06</p>
               <br />
             </div>
-            <img src="/img/carousel06.webp" loading="lazy" className="rounded-br-[50px]" />
+            <img src="/img/carousel06.webp" alt="foto carousel"  loading="lazy" className="rounded-br-[50px]" />
           </div>
         </div>
       </Carousel>

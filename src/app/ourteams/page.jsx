@@ -67,7 +67,7 @@ export default function OurTeams() {
           <h1 className="text-[40px] text-teal-900 font-Monstserrat tracking-widest">Konsultasikan kondisi kulitmu</h1>
           <h1 className="text-[35px] font-Petit italic text-yellow-500 tracking-wide">Dengan Dokter Terpercaya Kami</h1>
         </div>
-        <img src="/img/banner our team-desktop.webp" loading="lazy"  className="w-screen object-cover" />
+        <img src="/img/banner our team-desktop.webp" alt="banner" loading="lazy"  className="w-screen object-cover" />
       </div>
 
       <div className="desktop:hidden">
@@ -82,11 +82,11 @@ export default function OurTeams() {
             Terpercaya Kami
           </h1>
         </div>
-        <img src="/img/banner our team-mobile.webp" loading="lazy" className="w-screen pt-[50px]" />
+        <img src="/img/banner our team-mobile.webp" alt="banner" loading="lazy" className="w-screen pt-[50px]" />
       </div>
 
       {/* team section */}
-      <div className="flex justify-center bg-orange-50 mobile:mb-[100px]">
+      <div className="flex justify-center bg-orange-50 pb-[100px] mobile:mb-[100px]">
         <div className="text-center mt-[100px]">
           <div className="grid grid-cols-1 gap-[100px]">
             {teams.map((team, index) => (
