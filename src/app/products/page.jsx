@@ -10,7 +10,7 @@ export default function ProductsPage() {
           <h1 className="text-[60px] font-Monstserrat text-teal-900 tracking-wide">Skincare</h1>
           <h1 className="text-[45px] font-Petit italic text-yellow-400 leading-5">Hayyu</h1>
         </div>
-        <img src="/img/banner product-desktop.webp" className="w-screen object-cover" />
+        <img src="/img/banner product-desktop.webp" loading="lazy" className="w-screen object-cover" />
       </div>
 
       <div className="pt-[80px] desktop:hidden">
@@ -19,7 +19,7 @@ export default function ProductsPage() {
           <h1 className="text-[30px] font-Monstserrat text-teal-900 tracking-wide">Skincare</h1>
           <h1 className="text-[30px] font-Petit italic text-yellow-400 leading-5">Hayyu</h1>
         </div>
-        <img src="/img/banner product-mobile.webp" className="w-screen object-cover" />
+        <img src="/img/banner product-mobile.webp" loading="lazy" className="w-screen object-cover" />
       </div>
 
       {/* Second Section */}
@@ -28,7 +28,7 @@ export default function ProductsPage() {
         <div className="h-screen">
           <div className="w-[255px] relative flex flex-col items-center text-center gap-[120px] pt-[50px]">
             <div className=" h-[100px]">
-              <img src="/img/products (1).webp" className="rounded-br-[50px] mt-[-5px] shadow-lg" />
+              <img src="/img/products (1).webp" loading="lazy" className="rounded-br-[50px] mt-[-5px] shadow-lg" />
               <div className="h-[40px] w-[200px] flex flex-col text-left mt-1">
                 <h1 className="text-teal-900 font-semibold font-Monstserrat text-[13px]">Ampoule for White Series</h1>
                 <p className=" text-gray-500 text-[13px] font-Montserrat">Rp. 200.000</p>
@@ -37,7 +37,7 @@ export default function ProductsPage() {
             </div>
 
             <div className="h-[100px]">
-              <img src="/img/products (2).webp" className="rounded-br-[50px] mt-[-5px] shadow-lg" />
+              <img src="/img/products (2).webp" loading="lazy" className="rounded-br-[50px] mt-[-5px] shadow-lg" />
               <div className="h-[40px] w-[200px] flex flex-col text-left mt-1">
                 <h1 className="text-teal-900 font-semibold font-Monstserrat text-[13px]">Night Cream I</h1>
                 <p className=" text-gray-500 text-[13px] font-Montserrat">Rp. 95.000</p>
@@ -46,7 +46,7 @@ export default function ProductsPage() {
             </div>
 
             <div className="h-[100px]">
-              <img src="/img/products (3).webp" className="rounded-br-[50px] mt-[-5px] shadow-lg" />
+              <img src="/img/products (3).webp" loading="lazy" className="rounded-br-[50px] mt-[-5px] shadow-lg" />
               <div className="h-[40px] w-[200px] flex flex-col text-left mt-1">
                 <h1 className="text-teal-900 font-semibold font-Monstserrat text-[13px]">Light Cream</h1>
                 <p className=" text-gray-500 text-[13px] font-Montserrat">Rp. 95.000</p>

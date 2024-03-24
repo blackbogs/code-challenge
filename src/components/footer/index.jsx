@@ -5,14 +5,14 @@ export default function Footer() {
   return (
     <div className="h-[200px] bg-transparent">
       <div className="relative flex justify-center">
-        <img src="/img/footer-desktop.webp" className="absolute w-screen mobile:hidden bg-transparent z-50" /> {/* for desktop */}
-        <img src="/img/footer-mobile.webp" className=" mt-[-90px] w-screen h-[600px] bg-transparent desktop:hidden tablet:hidden" /> {/* for mobile */}
+        <img src="/img/footer-desktop.webp" loading="lazy" className="absolute w-screen mobile:hidden bg-transparent z-50" /> {/* for desktop */}
+        <img src="/img/footer-mobile.webp" loading="lazy" className=" mt-[-90px] w-screen h-[600px] bg-transparent desktop:hidden tablet:hidden" /> {/* for mobile */}
 
         {/* for mobile */}
         <div className="w-[80vw] absolute my-10 desktop:hidden">
           <div>
             <Link href={"/"}>
-              <img src="/img/logo footer-mobile.webp" className="w-[200px] mt-[-50px]" />
+              <img src="/img/logo footer-mobile.webp" loading="lazy" className="w-[200px] mt-[-50px]" />
             </Link>
           </div>
 
@@ -35,8 +35,8 @@ export default function Footer() {
                 OUR APPS
               </p>
               <div className="flex flex-row w-[75px] gap-1 mt-[-25px]">
-                <img src="/img/google play.svg" />
-                <img src="/img/app store.svg" />
+                <img src="/img/google play.svg" loading="lazy" />
+                <img src="/img/app store.svg" loading="lazy" />
               </div>
               <p className="mt-[-30px]">
                 TERMS &<br />
@@ -87,7 +87,7 @@ export default function Footer() {
           <div className="w-[75vw] flex flex-row justify-between mt-[120px] text-[15px] font-Monstserrat text-white">
             <div>
               <Link href={"/"}>
-                <img src="/img/logo footer-mobile.webp" className="w-[200px]" />
+                <img src="/img/logo footer-mobile.webp" loading="lazy" className="w-[200px]" />
               </Link>
             </div>
 
@@ -135,8 +135,8 @@ export default function Footer() {
               <p>DOWNLOAD OUR APPS</p>
               <hr className="w-[300px] h-[2.5px]" />
               <div className="flex flex-row w-[100px] gap-10 mt-[-25px] mx-8">
-                <img src="/img/google play.svg" />
-                <img src="/img/app store.svg" />
+                <img src="/img/google play.svg" loading="lazy"/>
+                <img src="/img/app store.svg" loading="lazy"/>
               </div>
               <p className="mt-[-30px] text-[12px] text-center">TERMS & CONDITIONS</p>
             </div>
