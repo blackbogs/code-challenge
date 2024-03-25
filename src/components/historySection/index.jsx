@@ -1,7 +1,7 @@
 export default function HayyuHistory() {
   return (
     <div className="w-screen">
-      <div className="desktop:hidden h-[500px] mt-[100px]">
+      <div className="desktop:hidden tablet:hidden h-[500px] mt-[100px]">
       <h1 className="text-[30px] font-Monstserrat text-teal-900 text-center">Our History</h1>
       <img src="/img/history-mobile.webp" alt="history" loading="lazy"/>
       </div>

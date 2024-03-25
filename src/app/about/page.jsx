@@ -5,7 +5,7 @@ export default function AboutUs() {
       {/* 1st section */}
 
       {/* for mobile */}
-      <div className="desktop:hidden">
+      <div className="desktop:hidden tablet:hidden">
         <div className="absolute pl-[30px] pt-[110px] leading-tight">
           <h1 className="text-1xl text-gray-500">ABOUT US</h1>
           <h1 className="text-[35px] font-[Poppins] text-teal-900 font-thin">Klinik Kecantikan</h1>
@@ -15,7 +15,7 @@ export default function AboutUs() {
       </div>
 
       {/* for desktop */}
-      <div className="h-[650px] pt-[70px] mobile:hidden tablet:hidden">
+      <div className="h-[650px] pt-[70px] mobile:hidden">
         <div className="absolute pt-[190px] pl-[200px]">
         <h1 className="text-[20px] text-gray-500] font-Monstserrat tracking-widest">ABOUT US</h1>
         <h1 className="text-[55px] font-Monstserrat text-teal-900 tracking-wide">Klinik Kecantikan</h1>
@@ -28,7 +28,7 @@ export default function AboutUs() {
       {/* 2nd section*/}
       {/* visi misi mobile */}
       <div>
-        <div className="w-[80vw] h-full desktop:hidden mx-10">
+        <div className="w-[80vw] h-full mx-10 desktop:hidden tablet:hidden">
           <img src="/img/Asset9-mobile.webp" alt="asset" loading="lazy" className="mt-[20px] scale-[0.9]" />
           <h1 className="font-[Poppins] text-teal-950 font-thin text-[30px]">Merawat tanpa</h1>
           <div className="flex flex-row items-center">
@@ -71,7 +71,7 @@ export default function AboutUs() {
         {/* visi misi mobile end*/}
 
         {/* visi misi desktop */}
-        <div className="flex flex-row h-full w-screen justify-between pt-[100px] mobile:hidden tablet:hidden">
+        <div className="flex flex-row h-full w-screen justify-between pt-[100px] mobile:hidden">
 
           <div className="w-[50vw] scale-[0.8] mt-[-110px]">
             <img src="/img/Asset9.webp" alt="asset" loading="lazy"/>

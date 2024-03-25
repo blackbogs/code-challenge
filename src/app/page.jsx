@@ -14,7 +14,7 @@ export default function Home() {
       <div>
         <img src="/img/hero.webp" alt="hero" loading="lazy" className="w-full h-full pt-[100px] object-cover desktop:block mobile:hidden tablet:hidden" />
 
-        <img src="/img/hero-mobile.webp" alt="hero" loading="lazy" className="object-cover w-full h-screen desktop:hidden" />
+        <img src="/img/hero-mobile.webp" alt="hero" loading="lazy" className="object-cover w-full h-screen desktop:hidden tablet:hidden" />
       </div>
       {/* Hero section End*/}
 
@@ -28,7 +28,7 @@ export default function Home() {
       </div>
 
       {/* for Mobile */}
-      <div className="w-screen h-screen text-center bg-orange-50 pt-[70px] desktop:hidden">
+      <div className="w-screen h-screen text-center bg-orange-50 pt-[70px] desktop:hidden tablet:hidden">
         <p className="text-[15px] text-gray-400 font-Monstserrat">OUR SERVICES</p>
         <h1 className="text-[35px] font-Monstserrat text-teal-900">We Offer</h1>
         <h1 className="text-[35px] font-Monstserrat text-teal-900 mt-[-20px]">A Beauty Product</h1>
@@ -55,7 +55,7 @@ export default function Home() {
         </div>        
       </div>
 
-      <div className="w-screen h-screen bg-orange-50 pt-[70px] desktop:hidden">
+      <div className="w-screen h-screen bg-orange-50 pt-[70px] desktop:hidden tablet:hidden">
         <div className="bg-[url('/img/Asset17-mobile.webp')] rounded-tl-[45px] h-[150px] drop-shadow-lg">
           <div className="pt-[20px] pl-5">
             <p className="text-[13px] text-white font-Monstserrat ">OUR BEST SELLER</p>
@@ -77,7 +77,7 @@ export default function Home() {
       </div>
       
       {/* for mobile */} 
-      <div className="w-full h-screen text-center mt-[50px] bg-[url('/img/background-testi-mobile.webp')] object-cover tablet:hidden desktop:hidden">
+      <div className="w-full h-screen text-center mt-[50px] bg-[url('/img/background-testi-mobile.webp')] object-cover desktop:hidden tablet:hidden">
         <div className="flex flex-col pt-[50px]">
           <h1 className="font-extrabold text-white text-1xl font-[Poppins] tracking-widest">OUR TESTIMONIAL</h1>
           <p className="text-4xl text-teal-900 font-[Poppins] pt-1">Read Why They</p>

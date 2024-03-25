@@ -3,7 +3,7 @@ import { Carousel } from "flowbite-react";
 
 function ProductCarouselMobile() {
   return (
-    <div className="h-[800px] px-[20px] mt-[-120px] desktop:hidden">
+    <div className="h-[800px] px-[20px] mt-[-120px] desktop:hidden tablet:hidden">
       <Carousel slide={true} slideInterval={3000}>
         <div>
           <div className="relative flex flex-row items-center justify-between w-screen text-center h-[100px] pt-[50px]">

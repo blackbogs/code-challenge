@@ -4,7 +4,7 @@ import { Carousel } from "flowbite-react";
 function SkincareCarousel() {
   return (
     <div className="h-full px-[20px]">
-      <div className="h-screen mt-[-150px] desktop:hidden">
+      <div className="h-screen mt-[-150px] desktop:hidden tablet:hidden">
       <Carousel slide={true} slideInterval={3000}>
         <div className="w-[255px]">
 

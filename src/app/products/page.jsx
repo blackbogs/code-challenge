@@ -4,7 +4,7 @@ export default function ProductsPage() {
   return (
     <div>
       {/* First Section */}
-      <div className="h-[650px] pt-[80px] mobile:hidden tablet:hidden">
+      <div className="h-[650px] pt-[80px] mobile:hidden">
         <div className="absolute pt-[300px] ml-[700px] text-left">
           <h1 className="text-[20px] text-gray-500] font-Monstserrat tracking-widest">OUR PRODUCTS</h1>
           <h1 className="text-[60px] font-Monstserrat text-teal-900 tracking-wide">Skincare</h1>
@@ -13,7 +13,7 @@ export default function ProductsPage() {
         <img src="/img/banner product-desktop.webp" alt="banner" loading="lazy" className="w-screen object-cover" />
       </div>
 
-      <div className="pt-[80px] desktop:hidden">
+      <div className="pt-[80px] desktop:hidden tablet:hidden">
         <div className="absolute text-left mt-[120px] ml-10">
           <h1 className="text-[12px] text-gray-500] font-Monstserrat tracking-widest">OUR PRODUCTS</h1>
           <h1 className="text-[30px] font-Monstserrat text-teal-900 tracking-wide">Skincare</h1>
@@ -23,7 +23,7 @@ export default function ProductsPage() {
       </div>
 
       {/* Second Section */}
-      <div className="flex flex-col justify-center items-center w-screen h-screen mt-10 mb-[100px] desktop:hidden">
+      <div className="flex flex-col justify-center items-center w-screen h-screen mt-10 mb-[100px] desktop:hidden tablet:hidden">
         <div className="bg-[#d2b690] text-white rounded-tr-[50px] h-[50px] w-[300px] flex flex-row justify-center items-center">
           <h1 className="text-[20px] font-Monstserrat tracking-widest font-[600]">SEMUA SKINCARE</h1>
         </div>
